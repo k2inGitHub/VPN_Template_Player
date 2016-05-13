@@ -59,15 +59,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ZLSwipeableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0B06F1047B6568C79F9919CE9E148111</key>
+		<key>3F7333C164E111940F1425F96342CCE2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4763450087B5D98312A6C13A6D1F8978</key>
+		<key>4AFFA68E648B1FD4A5E9212370E24803</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,17 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D3BF818907525B72A37D1297CFAD224</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76B49A2885D6AC7BF3379B4858DE2AF3</key>
+		<key>738A0A34DEDA693340A176A1B79C2C4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7E55B425831CE522474E70F17B007108</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,17 +107,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E9CEBFA231C60766B060667F1A134877</key>
+		<key>A2051D37D108BFB836FE09642BB41025</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7D3115FF846904CBB4D384A8326BAC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD77703C3EFC107961EECCE50182C01C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FFD85956CEA724630D2C4B8F67AD0697</key>
 		<dict>
 			<key>primary</key>
 			<true/>

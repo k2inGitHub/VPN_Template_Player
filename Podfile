@@ -6,6 +6,7 @@ pod 'UIAlertView+Blocks', '~> 0.9'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'AFNetworking', '~> 3.0.4'
 pod 'MBProgressHUD', '~> 0.9.2'
+pod 'ZLSwipeableView', '~> 0.0.8'
 
 pod 'REFrostedViewController', '~> 2.4.8'
 pod 'YiRefresh', '~> 0.9.3'

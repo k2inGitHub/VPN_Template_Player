@@ -19,12 +19,13 @@ PODS:
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - REFrostedViewController (2.4.8)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
   - THLabel (1.4.7)
   - UIAlertView+Blocks (0.9)
   - YiRefresh (0.9.5)
+  - ZLSwipeableView (0.0.8)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0 (~> 2.0.5)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - THLabel (~> 1.4.7)
   - UIAlertView+Blocks (~> 0.9)
   - YiRefresh (~> 0.9.3)
+  - ZLSwipeableView (~> 0.0.8)
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: 8312778b6815578e6a86d630fbcf31dc94c534e7
@@ -45,9 +47,10 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   THLabel: 1a23e71d7738abfeacaf22ab409b981209b105ae
   UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
   YiRefresh: 80c8e4113d720be8e133a5b8f499ccad27dde760
+  ZLSwipeableView: df385760ff4838935cdbcb62878ac5acd7355949
 
 COCOAPODS: 0.39.0

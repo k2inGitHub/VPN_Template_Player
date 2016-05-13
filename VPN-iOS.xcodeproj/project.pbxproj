@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161541F61CE588020065A64B /* VPNFavorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161541F51CE588020065A64B /* VPNFavorController.m */; };
 		161ECD5F1C842E620075DC14 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD5E1C842E620075DC14 /* CoreAudio.framework */; };
 		161ECD611C842E680075DC14 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD601C842E680075DC14 /* MessageUI.framework */; };
 		161ECD631C842E970075DC14 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161ECD621C842E970075DC14 /* AudioToolbox.framework */; };
@@ -259,7 +260,6 @@
 		16A455C81CB7B59D00B6C3B8 /* VPNVideoUnlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A455AB1CB7B59D00B6C3B8 /* VPNVideoUnlockController.m */; };
 		16A455C91CB7B59D00B6C3B8 /* VPNHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A455AE1CB7B59D00B6C3B8 /* VPNHomeModel.m */; };
 		16A455CA1CB7B59D00B6C3B8 /* VPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A455B01CB7B59D00B6C3B8 /* VPNManager.m */; };
-		16A455CB1CB7B59D00B6C3B8 /* night_girl_004.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16A455B21CB7B59D00B6C3B8 /* night_girl_004.mp4 */; };
 		16A455CC1CB7B59D00B6C3B8 /* VPNAlertTip.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A455B41CB7B59D00B6C3B8 /* VPNAlertTip.xib */; };
 		16A455CD1CB7B59D00B6C3B8 /* VPNAlertUnlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A455B51CB7B59D00B6C3B8 /* VPNAlertUnlock.xib */; };
 		16A455CE1CB7B59D00B6C3B8 /* VPNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A455B71CB7B59D00B6C3B8 /* VPNAlertView.m */; };
@@ -348,6 +348,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		161541F41CE588020065A64B /* VPNFavorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNFavorController.h; sourceTree = "<group>"; };
+		161541F51CE588020065A64B /* VPNFavorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNFavorController.m; sourceTree = "<group>"; };
 		161ECD5E1C842E620075DC14 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		161ECD601C842E680075DC14 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		161ECD621C842E970075DC14 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -740,7 +742,6 @@
 		16A455AE1CB7B59D00B6C3B8 /* VPNHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNHomeModel.m; sourceTree = "<group>"; };
 		16A455AF1CB7B59D00B6C3B8 /* VPNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNManager.h; sourceTree = "<group>"; };
 		16A455B01CB7B59D00B6C3B8 /* VPNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNManager.m; sourceTree = "<group>"; };
-		16A455B21CB7B59D00B6C3B8 /* night_girl_004.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = night_girl_004.mp4; sourceTree = "<group>"; };
 		16A455B41CB7B59D00B6C3B8 /* VPNAlertTip.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPNAlertTip.xib; sourceTree = "<group>"; };
 		16A455B51CB7B59D00B6C3B8 /* VPNAlertUnlock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPNAlertUnlock.xib; sourceTree = "<group>"; };
 		16A455B61CB7B59D00B6C3B8 /* VPNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNAlertView.h; sourceTree = "<group>"; };
@@ -1703,7 +1704,6 @@
 			children = (
 				16A4559B1CB7B59D00B6C3B8 /* Controller */,
 				16A455AC1CB7B59D00B6C3B8 /* Model */,
-				16A455B11CB7B59D00B6C3B8 /* Resources */,
 				16A455B31CB7B59D00B6C3B8 /* View */,
 				166912AB1CAD13110047535C /* VPN.storyboard */,
 				166912AC1CAD13110047535C /* VPNConfigData.plist */,
@@ -1769,6 +1769,8 @@
 		16A4559B1CB7B59D00B6C3B8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				161541F41CE588020065A64B /* VPNFavorController.h */,
+				161541F51CE588020065A64B /* VPNFavorController.m */,
 				16A4559C1CB7B59D00B6C3B8 /* VPNCenterVieController.h */,
 				16A4559D1CB7B59D00B6C3B8 /* VPNCenterVieController.m */,
 				16A4559E1CB7B59D00B6C3B8 /* VPNCurrencyController.h */,
@@ -1798,14 +1800,6 @@
 				16A455B01CB7B59D00B6C3B8 /* VPNManager.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		16A455B11CB7B59D00B6C3B8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				16A455B21CB7B59D00B6C3B8 /* night_girl_004.mp4 */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		16A455B31CB7B59D00B6C3B8 /* View */ = {
@@ -2565,7 +2559,6 @@
 				1669133A1CAD13110047535C /* webview_bar_share_ipad@2x.png in Resources */,
 				1669131E1CAD13110047535C /* mail@2x.png in Resources */,
 				166912EA1CAD13110047535C /* adsmogo_button_pressed@2x.png in Resources */,
-				16A455CB1CB7B59D00B6C3B8 /* night_girl_004.mp4 in Resources */,
 				166912C71CAD13110047535C /* admogoVideo_13.png in Resources */,
 				166913081CAD13110047535C /* adsmogo_rm_closeBtn.png in Resources */,
 				166913101CAD13110047535C /* download-640x100.gif in Resources */,
@@ -2764,6 +2757,7 @@
 				166913801CAD13110047535C /* NSString+KTAddition.m in Sources */,
 				16941B9A1C88052F00E07BAA /* WMMenuView.m in Sources */,
 				16F20ECF1C882788000AE519 /* LocalFileViewController.m in Sources */,
+				161541F61CE588020065A64B /* VPNFavorController.m in Sources */,
 				16F20EFD1C882851000AE519 /* NSObject+JudgeNull.m in Sources */,
 				16F20F9A1C882999000AE519 /* DDNumber.m in Sources */,
 				16A455C51CB7B59D00B6C3B8 /* VPNLoadController.m in Sources */,
