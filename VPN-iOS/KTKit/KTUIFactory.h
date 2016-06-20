@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#define DucumentPath    [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define BundlePath      [[NSBundle mainBundle] bundlePath]
+#define LibraryPath     [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+#define LibCachePath    [LibraryPath stringByAppendingPathComponent:@"Caches"]
+#define LibPrefPath     [LibraryPath stringByAppendingPathComponent:@"Preference"]
+
 static inline CGPoint
 CGPointMult(const CGPoint v, const float s)
 {
